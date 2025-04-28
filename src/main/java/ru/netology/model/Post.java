@@ -5,7 +5,8 @@ public class Post {
     private String content;
     private boolean removed;
 
-    public Post() {}
+    public Post() {
+    }
 
     public Post(long id, String content) {
         this.id = id;
@@ -13,6 +14,7 @@ public class Post {
         this.removed = false;
     }
 
+    // Геттеры и сеттеры
     public long getId() {
         return id;
     }
